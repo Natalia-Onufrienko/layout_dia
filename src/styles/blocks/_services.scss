@@ -85,6 +85,15 @@
     transition: transform 0.3s ease;
     cursor: pointer;
     transform: translateY(0) scale(1);
+    
+      &-text {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 150%;
+        letter-spacing: 0;
+        color: #6c788b;
+      }
 
     @include on-tablet {
       width: 280px;
@@ -93,15 +102,6 @@
       @include on-desktop {
         width: 264px;
         height: 264;
-      }
-
-      &-text {
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 600;
-        font-size: 13px;
-        line-height: 150%;
-        letter-spacing: 0;
-        color: #6c788b;
       }
 
       &--first {
@@ -174,41 +174,41 @@
       color: transparent;
 
       &--first {
-        background-image: url(../images/icon/001-b.png);
+        background-image: url(../images/icon/001.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
       }
       &--second {
-        background-image: url(../images/icon/002-b.png);
+        background-image: url(../images/icon/002.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
       }
       &--third {
-        background-image: url(../images/icon/003-b.png);
+        background-image: url(../images/icon/003.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
       }
       &--fourth {
-        background-image: url(../images/icon/004-b.png);
+        background-image: url(../images/icon/004.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
       }
 
       body.dark-theme &--first {
-        background-image: url(../images/icon/001.png);
+        background-image: url(../images/icon/001-w.svg);
       }
       body.dark-theme &--second {
-        background-image: url(../images/icon/002.png);
+        background-image: url(../images/icon/002-w.svg);
       }
       body.dark-theme &--third {
-        background-image: url(../images/icon/003.png);
+        background-image: url(../images/icon/003-w.svg);
       }
       body.dark-theme &--fourth {
-        background-image: url(../images/icon/004.png);
+        background-image: url(../images/icon/004-w.svg);
       }
     }
   }
