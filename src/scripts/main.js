@@ -4,7 +4,6 @@ const swiper = new Swiper('.header__swiper', {
   loop: true,
   direction: 'horizontal',
   slidesPerView: 1,
-  rtl: true,
 
   navigation: {
     nextEl: '.swiper-button-prev',
