@@ -62,11 +62,11 @@ function toggleTheme() {
    if (isDark) {
     slider.style.transform = `translateX(${MAX_MOVE}px)`;
     document.body.classList.add('dark-theme');
-    firstImage.src = './src/images/header/header-w.png';
+    firstImage.src = '/layout_dia/images/header/header-w.png';
   } else {
     slider.style.transform = 'translateX(0px)';
     document.body.classList.remove('dark-theme');
-    firstImage.src = './src/images/header/header-slide-1.png';
+    firstImage.src = '/layout_dia/images/header/header-slide-1.png';
   }
 }
 /* -------------------------
